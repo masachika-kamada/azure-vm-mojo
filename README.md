@@ -10,6 +10,8 @@
 4. 作成途中で [手順](https://code.visualstudio.com/docs/remote/ssh-tutorial#_add-ssh-key-to-your-vm) に従って公開鍵を登録 (`cat id_rsa.pub` で確認)
 5. [手順](https://code.visualstudio.com/docs/remote/ssh-tutorial#_connect-using-ssh) に従って VS Code で SSH 接続
 
+追加の記録：[Azure Bastion で SSH 接続](bastion.md)
+
 ## Mojo
 
 参考：[公式サイト](https://www.modular.com/max/mojo)
