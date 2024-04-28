@@ -11,6 +11,6 @@ struct MyPair:
 
 
 fn main():
-    var mine = MyPair(2, 4)
+    var mine = MyPair(first=2, second=4)
     # var mine = MyPair(int(2.3), 4)
     mine.dump()

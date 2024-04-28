@@ -1,9 +1,9 @@
-fn repeat[count: Int](msg: String):
+fn repeat[count: Int](msg: String) -> NoneType:
     for i in range(count):
         print(msg)
 
 
-fn call_repeat():
+fn call_repeat() -> NoneType:
     repeat[3]("Hello")
     # Prints "Hello" 3 times
 
